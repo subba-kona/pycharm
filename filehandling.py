@@ -1,0 +1,5 @@
+new_file = open("new_file1.txt","a+")
+new_file.write("\nthis is a new file")
+new_file.write("\nthis is second line")
+new_file.write("\nthis is third line")
+new_file.close()
